@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/prueba_tecnica_asteci/static/css/main.ec3c4509.css",
+    "main.js": "/prueba_tecnica_asteci/static/js/main.9a662988.js",
+    "static/js/787.93e708ef.chunk.js": "/prueba_tecnica_asteci/static/js/787.93e708ef.chunk.js",
+    "index.html": "/prueba_tecnica_asteci/index.html",
+    "main.ec3c4509.css.map": "/prueba_tecnica_asteci/static/css/main.ec3c4509.css.map",
+    "main.9a662988.js.map": "/prueba_tecnica_asteci/static/js/main.9a662988.js.map",
+    "787.93e708ef.chunk.js.map": "/prueba_tecnica_asteci/static/js/787.93e708ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec3c4509.css",
+    "static/js/main.9a662988.js"
+  ]
+}
