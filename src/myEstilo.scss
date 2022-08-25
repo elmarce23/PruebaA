@@ -1,0 +1,66 @@
+/*Definimos variables */
+
+$color1: #63009d;
+$color_btn:#3a9d00;
+$btn_hover: #e1e1e1;
+$color_border:#000;
+$color_table:#cdcdce;
+$border_size: 3px;
+$fontTitle: 22px;
+$fonttext: 14px;
+
+/* Estilo */
+
+body {
+    background-color: $color1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: $color_table;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+th {
+    font-size: $fontTitle;
+    border: $border_size solid $color_border;
+    text-align: center;
+    padding: 8px;
+}
+
+td {
+    font-size: $fonttext;
+    border: $border_size solid $color_border;
+    text-align: center;
+    padding: 8px;
+}
+
+p {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn {
+    background-color: $color_btn;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: $fonttext;
+}
+
+.btn:hover {
+    background-color: $btn_hover;
+    cursor: pointer;
+}
